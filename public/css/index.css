@@ -56,3 +56,35 @@ button{
 span{
     margin-left: 2rem;
 }
+
+
+@media (min-width: 640px) {
+    .main{
+        min-height: 600px;
+        width: 70%;
+    }
+
+}
+@media (min-width: 850px) {
+    .main{
+        min-height: 600px;
+        width: 60%;
+    }
+
+}
+@media (min-width: 1000px) {
+    .main{
+        min-height: 600px;
+        width: 50%;
+    }
+    button{
+        height: 6rem;
+        width: 60%;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
