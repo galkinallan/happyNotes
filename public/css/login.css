@@ -87,11 +87,17 @@ input{
         min-height: 600px;
         width: 70%;
     }
+    .alert, .alert-danger{
+        width: 70%;
+    }
 
 }
 @media (min-width: 850px) {
     .main{
         min-height: 600px;
+        width: 60%;
+    }
+    .alert, .alert-danger{
         width: 60%;
     }
 
@@ -112,6 +118,9 @@ input{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .alert, .alert-danger{
+        width: 50%;
     }
 
 }
